@@ -1,7 +1,10 @@
-export default function Home() {
+import { HomeContent } from '@/components/home/home-content';
+
+const Page = () => {
   return (
-    <div>
-      <h1 className="h-16 font-bold uppercase">Hello World</h1>
-    </div>
+    <main>
+      <HomeContent />
+    </main>
   );
-}
+};
+export default Page;
